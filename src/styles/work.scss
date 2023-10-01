@@ -1,0 +1,138 @@
+#work {
+    width: 100%;
+    height: auto;
+    // margin-bottom: 25vh;
+
+    >header {
+        >:nth-child(1) {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: $lightwhite;
+        }
+
+        >:nth-child(2) {
+            text-align: center;
+            color: $green;
+            margin-top: 15px;
+            font-family: $text2;
+            font-size: 13px;
+        }
+    }
+
+    >section {
+        width: 100%;
+
+        >main {
+            display: flex;
+            flex-flow: wrap;
+            margin-top: 50px;
+
+            >div {
+                width: 315px;
+                height: 300px;
+                background-color: $cardcolor;
+                border-radius: 5px;
+                padding: 30px;
+                margin-bottom: 13px;
+                margin-right: 13px;
+                transition: all 0.2s;
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+
+                >header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    >svg {
+                        height: 40px;
+                        width: 40px;
+                        color: $green;
+
+                    }
+
+                    >aside {
+                        display: flex;
+                        align-items: center;
+
+                        >a {
+                            >svg {
+                                height: 20px;
+                                width: 20px;
+                                margin-left: 15px;
+                                color: #a8b2d1;
+
+                                &:hover {
+                                    color: $green;
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+                >section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 85%;
+
+                    >:nth-child(1) {
+                        color: $lightgray;
+                        font-weight: bold;
+                        font-size: 18px;
+                        margin-top: 20px;
+
+                        &:hover{
+                            color: $green;
+                        }
+                    }
+
+                    >:nth-child(2) {
+                        color: $slate;
+                        font-weight: 500;
+                        font-size: 15px;
+                        margin-top: 15px;
+                        height: 50%;
+                        overflow: hidden;
+                    }
+
+                    >footer {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                        >span {
+                            font-size: 14px;
+                            color: $slate;
+                            font-family: $text2;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:780px) {
+    #work {
+
+        >section {
+
+            >main {
+
+                >div {
+                    width: 100%;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}

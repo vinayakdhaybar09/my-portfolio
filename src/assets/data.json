@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "title": "Getfit - The Fitness Club",
+            "description": "This is a simple website I created for a fitness club. In which you will get detailed information about the gym such as pricing and services.",
+            "technology": ["React", "CSS"],
+            "gitlink": "https://github.com/vinayakdhaybar09/Getfit",
+            "url": "https://getfit-zeta.vercel.app/"
+        },
+        {
+            "title": "Cryptoview",
+            "description": "This is a crypto tracker website. Here you will find detailed information about all the crypto coins such as prices, price history chart, market cap, and currency conversion.",
+            "technology": ["React", "Chakra UI"],
+            "gitlink": "https://github.com/vinayakdhaybar09/Cryptoview",
+            "url": "https://cryptoview-iota.vercel.app/"
+        },
+        {
+            "title": "Madara - The boutique",
+            "description": "Madara is a boutique website. You can find a wide variety of female dresses here.",
+            "technology": ["HTML", "CSS"],
+            "gitlink": "https://github.com/vinayakdhaybar09?tab=repositories",
+            "url": "https://madara-n2rwreubs-vinayakdhaybar09.vercel.app/"
+        },
+        {
+            "title": "Apple watch interface",
+            "description": "With the help of Figma, I designed an Apple Watch interface. Smooth-Fresh-Attractive",
+            "technology": ["Figma"],
+            "gitlink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_uxdesign-ui-ux-activity-7000449599786110976-NDOa?utm_source=share&utm_medium=member_desktop",
+            "url": "https://www.figma.com/proto/klHP9hQbe68FqUXpvbEehH/Untitled?page-id=19%3A211&node-id=19%3A297&viewport=137%2C327%2C0.1&scaling=scale-down&starting-point-node-id=19%3A241"
+        }
+    ]
+}

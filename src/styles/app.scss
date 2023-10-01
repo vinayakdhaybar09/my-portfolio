@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+@import "static.scss";
+@import "navbar.scss";
+@import "sidebar.scss";
+@import "title.scss";
+@import "about.scss";
+@import "work.scss";
+@import "detailwork.scss";
+@import "contact.scss";
+@import "flashpage.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $text1;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $nevy;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius:50%;
+}
+
+::-webkit-scrollbar-track {
+    background: $nevy;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $slate;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

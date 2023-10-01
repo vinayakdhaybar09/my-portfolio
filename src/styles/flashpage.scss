@@ -1,0 +1,26 @@
+#flashpage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    >main {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        
+        >img {
+            width: 100px;
+            align-self: center;
+        }
+
+        >p {
+            color: $slate;
+            font-family: $text2;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+}

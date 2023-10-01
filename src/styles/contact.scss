@@ -1,0 +1,113 @@
+#contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20vh;
+    padding-bottom: 20px;
+
+    >main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >:nth-child(1) {
+            color: $green;
+            font-family: $text2;
+            margin-bottom: 15px;
+        }
+
+        >:nth-child(2) {
+            color: $lightwhite;
+            font-size: 50px;
+            margin-bottom: 25px;
+        }
+
+        >:nth-child(3) {
+            color: $slate;
+            width: 60%;
+            margin-bottom: 40px;
+            text-align: center;
+            line-height: 1.8;
+            font-weight: 500;
+
+            >span{
+                color: $green;
+            }
+        }
+
+        >:nth-child(4) {
+            >button {
+                border: none;
+                border: 1px solid $green;
+                background-color: transparent;
+                width: fit-content;
+                color: $green;
+                padding: 20px;
+                border-radius: 5px;
+                // font-family: $text2;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 1.3px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #64ffda1a;
+                }
+            }
+        }
+    }
+
+    >section {
+        >main{
+            display: none;
+        }
+        >p {
+            color: $slate;
+            font-family: $text2;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width:780px) {
+    #contact {
+        >main {
+            >:nth-child(2) {
+                font-size: 40px;
+            }
+
+            >:nth-child(3) {
+                width: 100%;
+            }
+        }
+
+        >section {
+            >main {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+
+                >a {
+                    padding: 2rem 1rem;
+
+                    >svg {
+                        height: 20px;
+                        width: 20px;
+                        color: $lightgray;
+                        transition: all 0.2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                            color: $green;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

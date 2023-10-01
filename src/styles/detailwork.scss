@@ -1,0 +1,296 @@
+#detailwork {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20vh;
+
+    >header {
+        display: flex;
+        align-items: center;
+
+        >h3 {
+            color: $green;
+            font-family: $text2;
+            font-weight: 500;
+
+            >span {
+                font-size: 25px;
+                font-weight: bold;
+                color: $lightwhite;
+            }
+
+        }
+
+        &::after {
+            content: '';
+            width: 300px;
+            background-color: $line;
+            height: 1px;
+            margin: 10px;
+        }
+    }
+
+    >:nth-child(2) {
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+
+        >aside {
+            width: 55%;
+
+            >img {
+                width: 100%;
+                border-radius: 5px;
+            }
+
+        }
+
+        >main {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+
+            >:nth-child(1) {
+                color: $green;
+                font-family: $text2;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+
+            >:nth-child(2) {
+                color: $lightwhite;
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            >:nth-child(3) {
+                color: $slate;
+                font-size: 15px;
+                font-weight: 500;
+                width: 120%;
+                background-color: $cardcolor;
+                padding: 25px;
+                text-align: right;
+                line-height: 1.5;
+                border-radius: 5px;
+                margin-bottom: 20px;
+
+                >span {
+                    color: $green;
+                }
+            }
+
+            >:nth-child(4) {
+                color: $slate;
+                font-size: 13px;
+                margin-bottom: 20px;
+                display: flex;
+                gap: 30px;
+                font-family: $text1;
+            }
+
+            >:nth-child(5) {
+                display: flex;
+                gap: 30px;
+
+                >a {
+
+                    >svg {
+                        height: 20px;
+                        width: 20px;
+                        color: $lightwhite;
+
+                        &:hover {
+                            color: $green;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >:nth-child(3) {
+        display: flex;
+        width: 100%;
+        margin-top: 15vh;
+        margin-bottom: 25vh;
+
+        >main {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            >:nth-child(1) {
+                color: $green;
+                font-family: $text2;
+                font-size: 13px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+
+            >:nth-child(2) {
+                color: $lightwhite;
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            >:nth-child(3) {
+                color: $slate;
+                font-size: 15px;
+                font-weight: 500;
+                width: 120%;
+                background-color: $cardcolor;
+                padding: 25px;
+                line-height: 1.5;
+                border-radius: 5px;
+                margin-bottom: 20px;
+                z-index: 1;
+
+                >span {
+                    color: $green;
+                }
+            }
+
+            >:nth-child(4) {
+                color: $slate;
+                font-size: 13px;
+                margin-bottom: 20px;
+                display: flex;
+                gap: 30px;
+                font-family: $text1;
+            }
+
+            >:nth-child(5) {
+                display: flex;
+                gap: 30px;
+
+                >a {
+
+                    >svg {
+                        height: 20px;
+                        width: 20px;
+                        color: $lightwhite;
+
+                        &:hover {
+                            color: $green;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        >aside {
+            width: 55%;
+
+            >img {
+                width: 100%;
+                border-radius: 5px;
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    #detailwork {
+        padding-top: 15vh;
+        >header {
+
+            >h3 {
+                >span {
+                    font-size: 20px;
+                }
+            }
+
+            &::after {
+                content: '';
+                width: 50px;
+                margin: 0px;
+            }
+        }
+
+        >:nth-child(2) {
+            flex-direction: column;
+            align-items: center;
+            background-color: $cardcolor;
+            border-radius: 5px;
+
+            >aside{
+                width: 100%;
+                >img{
+                    padding: 15px;
+                    border-radius: 20px;
+                }
+            }
+
+            >main{
+                width: 100%;
+                align-items: flex-start;
+                padding: 15px;
+
+                >:nth-child(3) {
+                    // color: $slate;
+                    font-size: 15px;
+                    font-weight: 500;
+                    width: 100%;
+                    background-color: $cardcolor;
+                    padding: 25px;
+                    text-align: left;
+                    line-height: 1.5;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+    
+                    >span {
+                        color: $green;
+                    }
+                }
+            }
+        }  
+        
+        >:nth-child(3) {
+            flex-direction: column;
+            align-items: center;
+            background-color: $cardcolor;
+            border-radius: 5px;
+
+            >aside{
+                width: 100%;
+                >img{
+                    padding: 15px;
+                    border-radius: 20px;
+                }
+            }
+
+            >main{
+                width: 100%;
+                align-items: flex-start;
+                padding: 15px;
+
+                >:nth-child(3) {
+                    // color: $slate;
+                    font-size: 15px;
+                    font-weight: 500;
+                    width: 100%;
+                    background-color: $cardcolor;
+                    padding: 25px;
+                    text-align: left;
+                    line-height: 1.5;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+    
+                    >span {
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+}
