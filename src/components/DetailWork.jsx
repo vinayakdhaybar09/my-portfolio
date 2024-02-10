@@ -1,5 +1,5 @@
 import React from 'react'
-import mangoproject from '../assets/mangoproject.png'
+import mangoproject from '../assets/aamango.png'
 import upannaproject from '../assets/upannaproject.png'
 import { FiGithub, FiExternalLink, FiLinkedin } from "react-icons/fi";
 import { FaFigma } from 'react-icons/fa'
@@ -25,8 +25,9 @@ const DetailWork = () => {
                         <span>SCSS</span>
                     </div>
                     <div>
-                        <a href="https://www.figma.com/proto/N6nTPBJHFlJBEEsp57WD2s/Untitled?page-id=0%3A1&node-id=1%3A2&viewport=92%2C254%2C0.1&scaling=scale-down&starting-point-node-id=1%3A2" target={'blank'}><FaFigma /></a>
-                        <a href="https://www.figma.com/proto/N6nTPBJHFlJBEEsp57WD2s/Untitled?page-id=0%3A1&node-id=1%3A2&viewport=92%2C254%2C0.1&scaling=scale-down&starting-point-node-id=1%3A2" target={'blank'}><FiExternalLink /></a>
+                        <a href="https://www.figma.com/file/N6nTPBJHFlJBEEsp57WD2s/Untitled?type=design&mode=design&t=3osZhXIGONbtf7qE-1" target={'blank'}><FaFigma /></a>
+                        <a href="https://github.com/vinayakdhaybar09/aamango-customer" target={'blank'}><FiGithub /></a>
+                        <a href="https://the-aamango.vercel.app/" target={'blank'}><FiExternalLink /></a>
                     </div>
                 </main>
             </section>

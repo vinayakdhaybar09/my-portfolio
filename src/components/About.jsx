@@ -16,9 +16,13 @@ const About = () => {
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul>
             <li>React</li>
-            <li>JavaScript (ES6+) </li>
+            <li>React Native</li>
+            <li>Next js</li>
+            <li>Typescript</li>
+            <li>Node js</li>
+            <li>Express js</li>
             <li>Figma</li>
-            <li>Node.js</li>
+
           </ul>
         </main>
         <aside>

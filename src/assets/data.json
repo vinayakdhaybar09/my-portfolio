@@ -1,6 +1,27 @@
 {
     "projects": [
         {
+            "title": "The Aamango",
+            "description": "This is a mango selling webisite. initially,  Next js, Firebase & MERN stack is used to build this site",
+            "technology": ["Next js", "Firebase", "MERN stack"],
+            "gitlink": "https://github.com/vinayakdhaybar09/aamango-customer",
+            "url": "https://the-aamango.vercel.app/"
+        },
+        {
+            "title": "MenuBook",
+            "description": "Menubook is an app that lets users search or scan QR codes to access the menus of participating restaurants.",
+            "technology": ["React Native", "Node", "Mongo DB"],
+            "gitlink": "https://github.com/vinayakdhaybar09/menubook",
+            "url": "https://www.figma.com/file/CNLMfHWsLNKgiZIXvdRsEc/Menubook?type=design&node-id=0%3A1&mode=design&t=3osZhXIGONbtf7qE-1"
+        },
+        {
+            "title": "Singing",
+            "description": "Music player app, implemented focus management in TV",
+            "technology": ["React Native TV"],
+            "gitlink": "https://github.com/vinayakdhaybar09/Singing-TV-App",
+            "url": "https://github.com/vinayakdhaybar09/Singing-TV-App"
+        },
+        {
             "title": "Getfit - The Fitness Club",
             "description": "This is a simple website I created for a fitness club. In which you will get detailed information about the gym such as pricing and services.",
             "technology": ["React", "CSS"],
