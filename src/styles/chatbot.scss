@@ -1,0 +1,64 @@
+.chatBotBox {
+  position: fixed;
+  bottom: 20px;
+  right: 130px;
+}
+
+.chatBotBox:hover {
+  animation: shake 700ms 1;
+}
+
+#chatbotView {
+  display: flex;
+  align-items: center;
+  border: 2px solid $green;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: $cardcolor;
+  column-gap: 20px;
+  cursor: pointer;
+}
+
+#chatbotView:hover {
+}
+
+.imgView {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chatSubTitle {
+  font-size: 10px;
+  color: $lightwhite;
+}
+
+.chatTitle {
+  color: $lightwhite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-8px);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  75% {
+    transform: translateX(-8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

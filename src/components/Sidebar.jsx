@@ -6,6 +6,7 @@ import About from './About'
 import Work from './Work'
 import DetailWork from './DetailWork'
 import Contact from './Contact'
+import ChatBot from './ChatBot'
 
 
 const Sidebar = () => {
@@ -22,6 +23,8 @@ const Sidebar = () => {
                 <DetailWork />
                 <Work />
                 <Contact />
+                <ChatBot/>
+                
             </article>
             <section>
                 <a href="mailto:vinayakdhaybar0910@gmail.com">
