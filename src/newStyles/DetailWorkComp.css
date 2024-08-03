@@ -1,0 +1,137 @@
+.project-section {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  width: 55%;
+  height: 400px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1;
+}
+
+.project-details .project-title {
+  color: var(--green); /* replace $green with actual color value */
+  font-family: "Your Text2 Font"; /* replace $text2 with actual font value */
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.project-details .project-name {
+  color: var(--lightwhite); /* replace $lightwhite with actual color value */
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-details .project-description {
+  color: var(--slate); /* replace $slate with actual color value */
+  font-size: 15px;
+  font-weight: 500;
+  width: 120%;
+  background-color: var(
+    --cardcolor
+  ); /* replace $cardcolor with actual color value */
+  padding: 25px;
+  text-align: right;
+  line-height: 1.5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.project-details .project-description span {
+  color: var(--green); /* replace $green with actual color value */
+}
+
+.project-details .project-tech {
+  color: var(--slate); /* replace $slate with actual color value */
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  font-family: "Your Text1 Font"; /* replace $text1 with actual font value */
+}
+
+.project-details .project-links {
+  display: flex;
+  gap: 30px;
+}
+
+.project-details .project-links a svg {
+  height: 20px;
+  width: 20px;
+  color: var(--lightwhite); /* replace $lightwhite with actual color value */
+}
+
+.project-details .project-links a svg:hover {
+  color: green; /* replace $green with actual color value */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .project-section {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(
+      --cardcolor
+    ); /* replace $cardcolor with actual color value */
+    border-radius: 5px;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-image img {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .project-details {
+    width: 100%;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .project-details .project-description {
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    background-color: var(
+      --cardcolor
+    ); /* replace $cardcolor with actual color value */
+    padding: 25px;
+    text-align: left;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .project-details .project-description span {
+    color: var(--green); /* replace $green with actual color value */
+  }
+
+  .project-section.reverse {
+    flex-direction: column;
+  }
+}

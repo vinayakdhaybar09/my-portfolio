@@ -2,17 +2,15 @@
   position: fixed;
   bottom: 20px;
   right: 130px;
-}
-
-.chatBotBox:hover {
-  animation: shake 700ms 1;
+  z-index: 100;
 }
 
 #chatbotView {
+  width: 400px;
   display: flex;
   align-items: center;
   border: 2px solid $green;
-  width: fit-content;
+  // width: fit-content;
   padding: 10px 20px;
   border-radius: 20px;
   background-color: $cardcolor;
@@ -45,20 +43,53 @@
   color: $lightwhite;
 }
 
-@keyframes shake {
-  0% {
-    transform: translateX(0);
+#chatbotView {
+  cursor: pointer;
+}
+
+.chatBotContainer {
+  animation: fadeUp 0.5s ease-in-out;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  25% {
-    transform: translateX(-8px);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  50% {
-    transform: translateX(8px);
+}
+
+@media screen and (max-width: 780px) {
+  .chatBotBox {
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
   }
-  75% {
-    transform: translateX(-8px);
+  #chatbotView {
+    width: 200px;
   }
-  100% {
-    transform: translateX(0);
+  .imgView {
+    height: 30px;
+    width: 30px;
+  }
+  .chatSubTitle {
+    font-size: 8px;
+  }
+  .chatTitle {
+    font-size: 12px;
+  }
+  .titleDiv {
+    gap: 2px;
+  }
+  .chatBotContainer {
+    // width: 380px;
   }
 }

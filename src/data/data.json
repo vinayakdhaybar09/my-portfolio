@@ -1,0 +1,62 @@
+
+
+{
+  "projects": [
+    {
+      "title": "The Aamango",
+      "description": "This is a mango selling webisite. initially,  Next js, Firebase & MERN stack is used to build this site",
+      "technology": ["Next js", "Firebase", "MERN stack"],
+      "gitlink": "https://github.com/vinayakdhaybar09/aamango-customer",
+      "url": "https://the-aamango.vercel.app/",
+      "poster": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/aamango.png?alt=media&token=a4b9cbab-bd1c-4b58-9503-bf60f52492ff"
+    },
+    {
+      "title": "MenuBook",
+      "description": "Menubook is an app that lets users search or scan QR codes to access the menus of participating restaurants.",
+      "technology": ["React Native", "Node", "Mongo DB"],
+      "gitlink": "https://github.com/vinayakdhaybar09/menubook",
+      "url": "https://www.figma.com/file/CNLMfHWsLNKgiZIXvdRsEc/Menubook?type=design&node-id=0%3A1&mode=design&t=3osZhXIGONbtf7qE-1",
+      "poster": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/menubook.png?alt=media&token=50d18d76-8880-41a8-849b-c431d9e26c96"
+    },
+    {
+      "title": "Singing",
+      "description": "Music player app, implemented focus management in TV",
+      "technology": ["React Native TV"],
+      "gitlink": "https://github.com/vinayakdhaybar09/Singing-TV-App",
+      "url": "https://github.com/vinayakdhaybar09/Singing-TV-App",
+      "poster": "https://media.licdn.com/dms/image/D5605AQGJg9euGFbC6A/feedshare-thumbnail_720_1280/0/1716375059882?e=1723287600&v=beta&t=rNq2a0nTiNMA7Qwu0JBuHrC1E5dHtBawEbylIHBIR6c"
+    },
+    {
+      "title": "Getfit - The Fitness Club",
+      "description": "This is a simple website I created for a fitness club. In which you will get detailed information about the gym such as pricing and services.",
+      "technology": ["React", "CSS"],
+      "gitlink": "https://github.com/vinayakdhaybar09/Getfit",
+      "url": "https://getfit-zeta.vercel.app/",
+      "poster": "https://media.licdn.com/dms/image/C4D22AQHPV1-PXCFs8g/feedshare-shrink_800/0/1668000195378?e=1725494400&v=beta&t=IIwG70sVhrSBisZz1GfQng3zzIaPP6XqygNOrEkrOW0"
+    },
+    {
+      "title": "Cryptoview",
+      "description": "This is a crypto tracker website. Here you will find detailed information about all the crypto coins such as prices, price history chart, market cap, and currency conversion.",
+      "technology": ["React", "Chakra UI"],
+      "gitlink": "https://github.com/vinayakdhaybar09/Cryptoview",
+      "url": "https://cryptoview-iota.vercel.app/",
+      "poster": "https://media.licdn.com/dms/image/C4D22AQGUc5m4vKDEBw/feedshare-shrink_1280/0/1667225521385?e=1725494400&v=beta&t=UlJaXIzWCBbKs962rgxAXxcYbh5zhlg0z_NQVZqqA-A"
+    },
+    {
+      "title": "Madara - The boutique",
+      "description": "Madara is a boutique website. You can find a wide variety of female dresses here.",
+      "technology": ["HTML", "CSS"],
+      "gitlink": "https://github.com/vinayakdhaybar09?tab=repositories",
+      "url": "https://madara-n2rwreubs-vinayakdhaybar09.vercel.app/",
+      "poster": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/madara.png?alt=media&token=58b80f81-400b-40be-baca-f3c3b9021810"
+    },
+    {
+      "title": "Apple watch interface",
+      "description": "With the help of Figma, I designed an Apple Watch interface. Smooth-Fresh-Attractive",
+      "technology": ["Figma"],
+      "gitlink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_uxdesign-ui-ux-activity-7000449599786110976-NDOa?utm_source=share&utm_medium=member_desktop",
+      "url": "https://www.figma.com/proto/klHP9hQbe68FqUXpvbEehH/Untitled?page-id=19%3A211&node-id=19%3A297&viewport=137%2C327%2C0.1&scaling=scale-down&starting-point-node-id=19%3A241",
+      "poster": "https://media.licdn.com/dms/image/C4D05AQGHBhXMrFoZag/videocover-low/0/1669037237826?e=1723287600&v=beta&t=uMhUF3eOc4JQ-yq1z7y-y9Fcf_BcO99rJkyaUsmb5nQ"
+    }
+  ]
+}

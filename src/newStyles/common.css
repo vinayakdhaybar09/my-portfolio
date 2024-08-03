@@ -1,0 +1,28 @@
+:root {
+  --text1: "Inter", sans-serif;
+  --text2: "Space Mono", monospace;
+
+  --nevy: #0a192f;
+  --green: #64ffda;
+  --lightwhite: #ccd6f6;
+  --lightgray: #c9d3f3;
+  --slate: #8892b0;
+  --line: #233554;
+  --cardcolor: #112240;
+
+  --pagep: 0px 150px;
+  --navp: 0 50px;
+
+  --headingsize: clamp(40px, 8vw, 80px);
+  --parasize: 20px;
+  --smallsize: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--text1);
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}

@@ -33,7 +33,7 @@ const Contact = () => {
             <RiTwitterLine />
           </a>
         </main>
-        <div id="chatbotUi">
+        {/* <div id="chatbotUi">
           <p className="chatbotAiTitle">Ai chatbot npm package created by me</p>
           <p className="chatbotAiSubTitle">npm i react-gemini-ai-chatbot</p>
           <ReactAiChatBot
@@ -43,7 +43,7 @@ const Contact = () => {
             chatbotName="Vinayak"
             chatTitle="Ask me about my self"
           />
-        </div>
+        </div> */}
         <p>Designed & Built by Vinayak Dhaybar</p>
       </section>
     </div>

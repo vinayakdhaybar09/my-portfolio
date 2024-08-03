@@ -1,0 +1,63 @@
+[
+  {
+    "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/upannaproject.png?alt=media&token=dd6954dc-c799-4f74-b292-5e4e9b951bce",
+    "projectName": "upanna",
+    "altText": "profile",
+    "projectDescription": "This project is based on the booming food industry. This is an user side application. where you can place a weekly or monthly subscription order for tiffin.",
+    "technologies": ["Figma", "React Native", "Firebase"],
+    "figmaLink": "",
+    "githubLink": "https://github.com/vinayakdhaybar09/Upanna",
+    "linkedinLink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_react-community-linkedin-activity-6988875699948253184--9N8?utm_source=share&utm_medium=member_desktop",
+    "liveLink": "",
+    "reverse": false
+  },
+  {
+    "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/chatbot.png?alt=media&token=ad58dc30-1812-4e81-8360-fd4c56217029",
+    "projectName": "react-gemini-ai-chatbot",
+    "altText": "chatbot",
+    "projectDescription": "It's a React component package that lets you easily add a chatbot powered by Google's Gemini AI model to your websites. Perfect for help desks, answering queries, and more!",
+    "technologies": ["React", "Google Gemini", "NPM"],
+    "figmaLink": "",
+    "githubLink": "https://github.com/vinayakdhaybar09/react-gemini-ai-chatbot",
+    "linkedinLink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_react-google-gemini-activity-7182721912756740096-8e2M?utm_source=share&utm_medium=member_desktop",
+    "liveLink": "https://www.npmjs.com/package/react-gemini-ai-chatbot",
+    "reverse": true
+  },
+  {
+    "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/aamango.png?alt=media&token=a4b9cbab-bd1c-4b58-9503-bf60f52492ff",
+    "projectName": "aamango",
+    "altText": "profile",
+    "projectDescription": "This is the website design I made for a friend of mine who is a big seller of mangoes and wants to expand his business",
+    "technologies": ["Figma", "React", "SCSS"],
+    "figmaLink": "https://www.figma.com/file/N6nTPBJHFlJBEEsp57WD2s/Untitled?type:design&mode:design&t:3osZhXIGONbtf7qE-1",
+    "githubLink": "https://github.com/vinayakdhaybar09/aamango-customer",
+    "linkedinLink": "",
+    "liveLink": "https://the-aamango.vercel.app/",
+    "reverse": false
+  },
+  {
+    "imageSrc": "https://media.licdn.com/dms/image/D5605AQGJg9euGFbC6A/feedshare-thumbnail_720_1280/0/1716375059882?e=1723287600&v=beta&t=rNq2a0nTiNMA7Qwu0JBuHrC1E5dHtBawEbylIHBIR6c",
+    "projectName": "Singing",
+    "altText": "Singing app",
+    "projectDescription": "A Music Player App built using React Native for TV OS.",
+    "technologies": ["React Native TV OS", "Spotify api"],
+    "figmaLink": "",
+    "githubLink": "https://github.com/vinayakdhaybar09/Singing-TV-App",
+    "linkedinLink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_reactnative-react-spotify-activity-7198998909082353664-RARI?utm_source=share&utm_medium=member_desktop",
+    "liveLink": "",
+    "reverse": true
+  },
+
+  {
+    "imageSrc": "https://media.licdn.com/dms/image/D5605AQGb4-lXU1B6lg/feedshare-thumbnail_720_1280/0/1719228743170?e=1723287600&v=beta&t=u8SIxJ8ebwbmqJIGYqQa9h7xYJacX8AkcAYCxumsLZo",
+    "projectName": "2048 Game",
+    "altText": "profile",
+    "projectDescription": " I have created the classic 2048 game using React Native! This game brings back so many childhood memories for me,",
+    "technologies": ["React Native"],
+    "figmaLink": "",
+    "githubLink": "https://github.com/vinayakdhaybar09/2048-game",
+    "linkedinLink": "https://www.linkedin.com/posts/vinayak-dhaybar-8563121b0_reactnative-react-ai-activity-7210968096633704448-thJT?utm_source=share&utm_medium=member_desktop",
+    "liveLink": "https://drive.google.com/file/d/1vtDVyYY0pt_1bThkLnM5a0he9cXjX_tt/view",
+    "reverse": false
+  }
+]
