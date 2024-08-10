@@ -36,7 +36,7 @@
     "reverse": false
   },
   {
-    "imageSrc": "https://media.licdn.com/dms/image/D5605AQGJg9euGFbC6A/feedshare-thumbnail_720_1280/0/1716375059882?e=1723287600&v=beta&t=rNq2a0nTiNMA7Qwu0JBuHrC1E5dHtBawEbylIHBIR6c",
+    "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/singingTvApp.png?alt=media&token=b7305074-90f3-48cf-a27e-c7e4f37c124f",
     "projectName": "Singing",
     "altText": "Singing app",
     "projectDescription": "A Music Player App built using React Native for TV OS.",
@@ -49,7 +49,7 @@
   },
 
   {
-    "imageSrc": "https://media.licdn.com/dms/image/D5605AQGb4-lXU1B6lg/feedshare-thumbnail_720_1280/0/1719228743170?e=1723287600&v=beta&t=u8SIxJ8ebwbmqJIGYqQa9h7xYJacX8AkcAYCxumsLZo",
+    "imageSrc": "https://firebasestorage.googleapis.com/v0/b/vinayak-portfolio.appspot.com/o/2048game.png?alt=media&token=397a130f-df03-4df8-afdb-339fa7fbc5bd",
     "projectName": "2048 Game",
     "altText": "profile",
     "projectDescription": " I have created the classic 2048 game using React Native! This game brings back so many childhood memories for me,",
