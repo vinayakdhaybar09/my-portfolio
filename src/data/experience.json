@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Vodafone Idea App",
+    "category": "Telecom · Consumer Super-App",
+    "scale": "10M+ monthly active users",
+    "summary": "Customer-facing mobile platform for one of India's largest telecom operators, covering revenue-critical journeys like recharge, account management and support. I owned modules end-to-end across 15+ production features.",
+    "challenge": "Shipping fast on a high-traffic app where every release has to be safe, and where content and layouts change far more often than app-store release cycles allow.",
+    "contributions": [
+      "Built CMS-driven dynamic screens (Dashboard, Help & Support, My Account) with server-managed content and layouts, cutting dependency on app releases by 40%.",
+      "Shipped LLM-powered chatbot experiences with LangChain, LangGraph and RAG that handle 30%+ of support queries autonomously.",
+      "Delivered OTP-less login via digital credentials, a network diagnostics system and PWA integrations that enable self-service.",
+      "Led an offline-first approach with client-side caching, reducing redundant API calls and cutting Dashboard load time by 20%.",
+      "Handled Play Store releases: phased rollouts, hotfixes and post-release monitoring, sustaining 99.5%+ availability."
+    ],
+    "technologies": [
+      "React Native",
+      "Node.js",
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "RAG"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.mventus.selfcare.activity&hl=en_IN"
+  },
+  {
+    "name": "Amazon Vega OS Ads SDK",
+    "category": "SDK · Developer Platform",
+    "scale": "Used by global partner teams",
+    "summary": "An end-to-end advertising SDK for Amazon's Vega OS, built in React Native and consumed by external engineering teams worldwide.",
+    "challenge": "Designing an SDK, not an app: a stable public surface, ad-insertion flows that behave consistently across partners, and enough documentation to onboard teams I would never meet.",
+    "contributions": [
+      "Architected the SDK with client-side (CSAI) and server-side (DAI) ad insertion through Google IMA.",
+      "Wrote the technical documentation and ran partner onboarding.",
+      "Resolved integration issues with global client teams and provided ongoing production support.",
+      "Improved ad playback success by ~18% while reducing player-related crashes."
+    ],
+    "technologies": [
+      "React Native",
+      "Vega OS",
+      "Google IMA",
+      "CSAI / DAI"
+    ]
+  },
+  {
+    "name": "aha",
+    "category": "OTT · Streaming Platform",
+    "scale": "2M+ subscribers",
+    "summary": "A multi-platform streaming experience across web and smart TVs, built from a shared codebase and led with a cross-functional team.",
+    "challenge": "Keeping playback smooth and the UI consistent across very different runtimes, from browsers to resource-constrained TV hardware.",
+    "contributions": [
+      "Led a cross-functional team building Web (Next.js) and Smart TV (React.js) apps, including Samsung Tizen and LG webOS.",
+      "Integrated Shaka Player and Google IMA for streaming and ad delivery.",
+      "Removed unnecessary re-renders and optimized React rendering to improve playback and responsiveness.",
+      "Designed a reusable UI component library that sped up feature delivery and standardized UI across multiple OTT products."
+    ],
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "Shaka Player",
+      "Google IMA",
+      "Tizen",
+      "webOS"
+    ],
+    "link": "https://www.aha.video/"
+  },
+  {
+    "name": "News18 Smart TV",
+    "category": "Media · Smart TV App",
+    "scale": "Live streaming + VOD",
+    "summary": "A news application for Samsung Tizen and LG webOS supporting live channels and on-demand video.",
+    "challenge": "Large content feeds on low-memory TV devices, navigated with a remote control, with no room for janky scrolling.",
+    "contributions": [
+      "Built the app for Samsung Tizen and LG webOS with player SDK integrations and Adaptive Bitrate Streaming (ABR).",
+      "Implemented content virtualization to keep navigation smooth on large feeds.",
+      "Integrated ad SDKs to monetize the app through video advertising."
+    ],
+    "technologies": [
+      "React.js",
+      "Tizen",
+      "webOS",
+      "ABR Streaming",
+      "Ad SDKs"
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.news18.atv&hl=en_IN"
+  }
+]

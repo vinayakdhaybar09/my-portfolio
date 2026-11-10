@@ -3,12 +3,9 @@ import { RiTwitterLine } from "react-icons/ri";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import Title from "./Title";
 import About from "./About";
-import Work from "./Work";
-import DetailWork from "./DetailWork";
+import Experience from "./Experience";
 import Contact from "./Contact";
 import ChatBot from "./ChatBot";
-import ProjectSection from "../newComp/DetailWorkComp";
-import mangoproject from "../assets/mangoproject.png";
 import "../newStyles/common.css";
 
 const Sidebar = () => {
@@ -35,8 +32,7 @@ const Sidebar = () => {
       <article>
         <Title />
         <About />
-        <DetailWork />
-        <Work />
+        <Experience />
         <Contact />
         <ChatBot />
       </article>

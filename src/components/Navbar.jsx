@@ -24,7 +24,7 @@ const Navbar = () => {
                         <main>
                             <MdClose onClick={()=> setMenuOpened(false)}/>
                             <a href="#about" onClick={()=> setMenuOpened(false)}>01. <span>About</span></a>
-                            <a href="#detailwork" onClick={()=> setMenuOpened(false)}>02. <span>Work</span></a>
+                            <a href="#experience" onClick={()=> setMenuOpened(false)}>02. <span>Experience</span></a>
                             <a href="#contact" onClick={()=> setMenuOpened(false)}>03. <span>Contact</span></a>
                             <a href={resume} target={'blank'} >
                                 <button>Resume</button>
