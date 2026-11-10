@@ -5,7 +5,6 @@ import Title from "./Title";
 import About from "./About";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import ChatBot from "./ChatBot";
 import "../newStyles/common.css";
 
 const Sidebar = () => {
@@ -34,7 +33,6 @@ const Sidebar = () => {
         <About />
         <Experience />
         <Contact />
-        <ChatBot />
       </article>
       <section>
         <a href="mailto:vinayakdhaybar0910@gmail.com">

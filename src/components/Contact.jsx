@@ -1,7 +1,6 @@
 import React from "react";
 import { RiTwitterLine } from "react-icons/ri";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
-import { ReactAiChatBot } from "react-gemini-ai-chatbot";
 
 const Contact = () => {
   return (
@@ -10,9 +9,9 @@ const Contact = () => {
         <p>03. What's Next ?</p>
         <h1>Get In Touch</h1>
         <p>
-          <span>I'm open to job opportunities</span> where I can contribute,
-          learn and grow. If you have a good opportunity that matches my skills
-          and experience, then don't hesitate to contact me.
+          <span>Let's connect</span> and discuss exciting projects, ideas, and
+          opportunities to build something meaningful. Whether you want to
+          collaborate or just say hello, my inbox is open.
         </p>
         <a href="mailto:vinayakdhaybar0910@gmail.com" target={"blank"}>
           <button>Say Hello</button>
@@ -33,17 +32,6 @@ const Contact = () => {
             <RiTwitterLine />
           </a>
         </main>
-        {/* <div id="chatbotUi">
-          <p className="chatbotAiTitle">Ai chatbot npm package created by me</p>
-          <p className="chatbotAiSubTitle">npm i react-gemini-ai-chatbot</p>
-          <ReactAiChatBot
-            geminiApiKey={"AIzaSyDuA-Em_LzMqwHYKWXIeevtFjBQXJAg96c"}
-            height="420px"
-            width="340px"
-            chatbotName="Vinayak"
-            chatTitle="Ask me about my self"
-          />
-        </div> */}
         <p>Designed & Built by Vinayak Dhaybar</p>
       </section>
     </div>

@@ -73,23 +73,6 @@
   }
 }
 
-#chatbotUi {
-  margin: 50px 0px;
-}
-.chatbotAiTitle {
-  color: $lightwhite;
-  text-align: center;
-  margin: 10px 0;
-}
-
-.chatbotAiSubTitle {
-  color: $lightwhite;
-  //   font-family: $text2;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 @media screen and (max-width: 780px) {
   #contact {
     > main {

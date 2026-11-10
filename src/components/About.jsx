@@ -11,8 +11,8 @@ const About = () => {
       <section>
         <main>
           <p>Hello! My name is Vinayak and I enjoy creating things that live on the internet.</p>
-          <p>I'm a <span>Full-Stack Engineer</span> with 3.5+ years building production apps across mobile, web and TV that drive the success of the overall product. Check out the production systems I have worked on in the Experience section.</p>
-          <p><span>I'm open to Job opportunities</span> where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>contact me.</span></p>
+          <p>Over <span>3.5+ years</span> I've taken features from requirements to production release, working closely with product, design, backend, and QA teams. I care as much about performance, reliability, and clean architecture as I do about the interface. See what I've shipped in the Experience section.</p>
+          <p><span>Let's connect</span> and discuss exciting projects, ideas, and opportunities to build something meaningful. If you'd like to collaborate or just talk shop, feel free to <span>reach out.</span></p>
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul>
             <li>React</li>
