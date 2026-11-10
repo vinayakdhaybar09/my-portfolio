@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import FlashPage from "./components/FlashPage";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import "./styles/app.scss"
