@@ -133,6 +133,30 @@
                 }
             }
 
+            .exp-links {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px 25px;
+                margin-top: 20px;
+
+                a {
+                    color: $lightgray;
+                    font-family: $text2;
+                    font-size: 13px;
+
+                    svg {
+                        height: 14px;
+                        width: 14px;
+                        vertical-align: middle;
+                        margin-left: 4px;
+                    }
+
+                    &:hover {
+                        color: $green;
+                    }
+                }
+            }
+
             >footer {
                 display: flex;
                 flex-wrap: wrap;

@@ -35,6 +35,15 @@ const Experience = () => {
                 <li key={index}>{point}</li>
               ))}
             </ul>
+            {item.links && (
+              <div className="exp-links">
+                {item.links.map((l) => (
+                  <a key={l.label} href={l.url} target="_blank" rel="noopener noreferrer">
+                    {l.label} <FiExternalLink />
+                  </a>
+                ))}
+              </div>
+            )}
             <footer>
               {item.technologies.map((tech) => (
                 <span key={tech}>{tech}</span>

@@ -23,6 +23,40 @@
     "link": "https://play.google.com/store/apps/details?id=com.mventus.selfcare.activity&hl=en_IN"
   },
   {
+    "name": "Singara Community Platform",
+    "category": "Community · Web + Mobile Platform",
+    "scale": "Singapore · Android, iOS & Web",
+    "summary": "A community management platform for the Singara community in Singapore. Members can join, stay up to date with events and offers, and the community team can manage everything from one place. I built the website, the web application and the Android and iOS apps.",
+    "challenge": "Delivering one coherent product across web, Android and iOS, so membership, events and offers feel the same everywhere and stay easy for the community to manage.",
+    "contributions": [
+      "Built the public website and the web application for membership and community management.",
+      "Built the mobile app for both Android and iOS and published it to the Play Store and App Store.",
+      "Enabled people to become members and join the community, with updates on events, offers and announcements.",
+      "Gave the community a single platform to manage members, events and offers."
+    ],
+    "technologies": [
+      "React Native",
+      "Web App",
+      "Android",
+      "iOS"
+    ],
+    "link": "https://www.singara.org/",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.singara.org/"
+      },
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.singara.org"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/in/app/singara/id6756994666"
+      }
+    ]
+  },
+  {
     "name": "Amazon Vega OS Ads SDK",
     "category": "SDK · Developer Platform",
     "scale": "Used by global partner teams",
